@@ -10,19 +10,19 @@ import (
 
 const (
 	// AuthFromEnvClient is an env variable supported by the Azure SDK
-	AuthFromEnvClient = "AZURE_CLIENT_ID"
+	AuthFromEnvClient = "ARM_CLIENT_ID"
 
 	// AuthFromEnvSecret
-	AuthFromEnvSecret = "AZURE_CLIENT_SECRET"
+	AuthFromEnvSecret = "ARM_CLIENT_SECRET"
 
 	// AuthFromEnvSubscription
-	AuthFromEnvSubscription = "AZURE_SUBSCRIPTION_ID"
+	AuthFromEnvSubscription = "ARM_SUBSCRIPTION_ID"
 
 	// AuthFromEnvTenant is an env variable supported by the Azure SDK
-	AuthFromEnvTenant = "AZURE_TENANT_ID"
+	AuthFromEnvTenant = "ARM_TENANT_ID"
 
 	// AuthFromFile is an env variable supported by the Azure SDK
-	AuthFromFile = "AZURE_AUTH_LOCATION"
+	AuthFromFile = "ARM_AUTH_LOCATION"
 	
 )
 
